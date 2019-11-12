@@ -36,15 +36,11 @@ header li{
 }
 
 header #Logo{
-	float:left;
-}
-
-header #Logo h1{
-	margin:0;
+	float:center;
 }
 
 header nav{
-	float:right;
+	float:center;
 	margin-top:10px; 
 }
 
@@ -53,17 +49,6 @@ header a:hover{
 	font-weight:Bold;
 }
 
-#background{
-	min-height: 400px;
-	background:url('./Css/birds.jpg') no-repeat 0 -400px;
-}
-
-#personal {
-	float:left;
-	text-align: center;
-	width:165%;
-	padding:10px;
-}
 
 footer{
 	padding:20px;
