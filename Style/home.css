@@ -2,6 +2,7 @@ body{
 	font: 15px/1.5 Verdana, Arial, sans-serif;
 	padding: 0;
 	margin: 0;
+	background-color: #f4f4f4;
 }
 
 .container{
@@ -10,25 +11,53 @@ body{
 	overflow: hidden;
 }
 
-header{
-	padding top: 10%;
-}
-
-header ul{
+ul{
 	margin: 0;
 	padding: 0;
 }
 
-header li{
-	float: left;
-	display: inline;
-	padding: 10px 20px 10px 20px;
+
+header{
+	background: #35424a;
+	color:#ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
 }
 
-h1{
+header a{
+	color: #ffffff;
+	text-transform: upercase;
+	font-size: 15px;
+}
+
+header li{
+	float: center;
+	display: inline;
+	padding: 0px 20px 0px 20px;
+}
+
+header #tittle{
 	text-align: center;
 }
 
+header #tittle{
+	margin:0;
+}
+
+header nav{
+	float:left;
+	margin-top: 10px;
+}
+
+header a:hover{
+	color:#cccccc;
+	font-weight: Bold;
+}
+.background{
+	background-color: #a3a375;
+
+}
 #boxes{
 	margin-top: 20px;
 }
@@ -36,7 +65,7 @@ h1{
 #boxes .box{
 	float: left;
 	width: 30%;
-	padding: 15px;
+	padding: 10px;
 	text-align: left;
 }
 
@@ -61,8 +90,32 @@ h1{
 	color: #fff;
 	border: none!important;
 }
+.center{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.orig{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.aghar{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h3{
+	text-align: center;
+}
 
 footer{
+	padding:20px;
+	margin-top: 20px;
+	color:#ffffff;
+	background-color: #e8491d;
 	text-align: center;
-	padding-top: 10px;
 }
